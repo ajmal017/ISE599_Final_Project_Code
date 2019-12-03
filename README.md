@@ -10,9 +10,13 @@ There are two dataset used in this project. However, both of them are too big to
 
 # Archive Folder 
 
+## 1. All_prices_10k_features
+
+In the All_prices_10k_features folder, it contains the dataset for our final combined features model, which include both 10K contents and Stock price features.
+
 ## 2. Data preprocessing
 
-In the Data preprocessing folder, it includes the csv files, and code for our data preparation. We tried different methods to match our 10K files with the right stock symbol. The nasdaqlisted and otherlisted were used for first experiment, but finally we found more comprehensive document 'cik_ticker.csv' on the internet. Therefore, our 'Final_code_Mapping.ipynb' using the cik_ticker.csv for our final mapping. Then we also created a stopword list through observing the frequency of words in random chosen 10K files, which detail code explanation in 'Final_Stop_words.ipynb'
+In the Data preprocessing folder, it includes the csv files, and code for our data preparation. We first extract the CIK for each 10K file and tried to match them with right stock price features. We tested different methods to match our 10K files with the right stock symbol. The nasdaqlisted and otherlisted were used for first experiment, but finally we found more comprehensive document 'cik_ticker.csv' on the internet. Therefore, our 'Final_code_Mapping.ipynb' using the cik_ticker.csv for our final mapping. Then we also created a stopword list through observing the frequency of words in random chosen 10K files, which detail code explanation in 'Final_Stop_words.ipynb'
 
 ##### a. cik_ticker.csv ---- include the correspondend stock symbol with their CIK
 ##### b. nasdaqlisted.txt --- include all of the CIK of companies listed in NASDAQ
