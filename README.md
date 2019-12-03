@@ -1,11 +1,23 @@
 # ISE599_Final_Project_Code
 
-## 1. Dataset
+### 1. Dataset
 
 There are two dataset used in this project. However, both of them are too big to repo. Therefore, we will provide the data link here for you to download.
 
 ##### 10K_Files: http://www.cs.cmu.edu/~ark/10K/
 ##### Kaggle_stock_prices: https://www.kaggle.com/tsaustin/us-historical-stock-prices-with-earnings-data#stock_prices_latest.csv
+
+### 2.Final_code_Mapping.ipynb
+Data preparation code, you can also find it in Archive/Data preprocessing
+
+### 3.FInal_mapping_Previous.ipynb
+Data preparation code, you can also find it in Archive/Data preprocessing
+
+### 4.Final_Stop_words.ipynb
+Data preparation code, you can also find it in Archive/Data preprocessing
+
+### 5. Fianl_Model_Builder_Price_Fixed.ipynb
+Our main code for our model builing and evaluation. It also contains our remove outliers code, and, at the end of code, it includes our 'Assume price fixed baseline model'.
 
 
 # Archive Folder 
