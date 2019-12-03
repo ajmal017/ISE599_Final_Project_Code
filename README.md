@@ -46,3 +46,13 @@ There are two csv files contains the MSE results of e. Build All-feature Predict
 The TF-IDF folder contains two sub-folder, TF-IDF_Baseline and TF-IDF_all_feature.
 ##### a.TF-IDF_Baseline contains the code for TF-IDF baseline model builder, After-preprocessing data, and stopword list.
 ##### b.TF-IDF_all_feature contains the code for TF-IDF all features model builder, After-preprocessing data, and stopword list.
+
+## 5. plot Folder
+
+In this folder, it includes our final results for combined features model with both Document embedding and TF-IDF. We also include the plotting code for our project.
+
+##### a. docu_embedding_all_feature_mse 1.csv
+##### b. docu_embedding_all_feature_mse.csv
+##### c. tfidf_all_feature_mse 1.csv
+##### d. tfidf_all_feature_mse.csv
+##### e. plot.ipynb
