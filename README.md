@@ -11,7 +11,7 @@ Kaggle_stock_prices:
 # 2. Data preprocessing
 
 In the Data preprocessing folder, it includes the csv files, and code for our data prepartion.
-a. cik_ticker.csv ---- include the correspondend stock symbol with their CIK
+/na. cik_ticker.csv ---- include the correspondend stock symbol with their CIK
 b. nasdaqlisted.txt --- include all of the CIK of companies listed in NASDAQ
 
 
